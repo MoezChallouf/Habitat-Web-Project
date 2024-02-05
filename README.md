@@ -1,64 +1,69 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1>Habitat - Leader in Door Manufacturing and Parquet Sales in Tunisia</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h2>Project Overview</h2>
+
+<p>Habitat is a full-fledged web application developed using Laravel, PHP, and MySQL technologies. It serves as a
+    comprehensive platform for the manufacturing of doors and the sale of parquet in Tunisia. This project
+    encapsulates the entire lifecycle of the business, from inventory management to customer interactions.</p>
+
+<h2>Features</h2>
+
+<ul>
+    <li><strong>Product Catalog:</strong> Browse through a diverse range of doors and parquet products.</li>
+    <li><strong>User Authentication:</strong> Secure user authentication system for customers and administrators.
+    </li>
+    <li><strong>Inventory Management:</strong> Efficiently manage and track product inventory.</li>
+    <li><strong>Order Processing:</strong> Smooth order processing and tracking for customers.</li>
+    <li><strong>Admin Panel:</strong> Admin dashboard for managing products, orders, and user accounts.</li>
+    <li><strong>Responsive Design:</strong> Ensures a seamless experience across various devices.</li>
+</ul>
+
+<h2>Technologies Used</h2>
+
+<ul>
+    <li><strong>Laravel:</strong> A PHP web application framework for robust development.</li>
+    <li><strong>PHP:</strong> The server-side scripting language for dynamic web page generation.</li>
+    <li><strong>MySQL:</strong> A relational database management system for data storage.</li>
+    <li><strong>HTML, CSS, JavaScript:</strong> Front-end technologies for creating an interactive user interface.
+    </li>
+</ul>
+
+<h2>Setup Instructions</h2>
+
+<ol>
+    <li><strong>Clone the Repository:</strong>
+        <code>git clone https://github.com/your-username/habitat.git</code></li>
+    <li><strong>Install Dependencies:</strong>
+        <code>cd habitat<br>composer install</code></li>
+    <li><strong>Configure Environment:</strong>
+        <ul>
+            <li>Copy the <code>.env.example</code> file to <code>.env</code> and configure your database settings.
+            </li>
+            <li>Generate application key: <code>php artisan key:generate</code></li>
+        </ul>
+    </li>
+    <li><strong>Run Migrations and Seed Database:</strong>
+        <code>php artisan migrate --seed</code></li>
+    <li><strong>Serve the Application:</strong>
+        <code>php artisan serve</code></li>
+    <li><strong>Visit the Application:</strong> Open your browser and go to
+        <a href="http://localhost:8000">http://localhost:8000</a></li>
+</ol>
+
+<h2>Contributing</h2>
+
+<p>If you'd like to contribute to this project, please follow the <a href="CONTRIBUTING.md">Contributing Guidelines</a>.
 </p>
 
-## About Laravel
+<h2>License</h2>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Contact</h2>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p>For any inquiries or assistance, feel free to contact us at
+    <a href="mailto:your.email@example.com">medmoezchallouf@gmail.com</a>.</p>
 
-## Learning Laravel
+</body>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+</html>
